@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ///////////////////////////////////nav bar//////////////////////////// */
+nav{
+    width: 100%;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 5px 8px rgba(255, 254, 254, 0.5);
+    z-index: 10;
+}
+i{
+    color: #f47425;
+}
+.nav-link{
+    /* color: rgb(255, 245, 245) !important; */
+    color: whitesmoke!important;  
+}
+
+.nav-link:hover{
+    color: #f47425 !important;
+}
+/* ################################# contact ############################# */
+#contact{
+    width: 100%;
+    min-height: 100vh;
+    position:absolute;
+    align-items: center;
+}
+
+#contact .container{
+    margin-top: 8%;
+}
+
+#contact h3{
+    color: #f47425;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+#contact h2{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+
+#contact button{
+    margin-top: 2%;
+    font-size: 1.3rem;
+    border-radius: 0;
+    border: #f47425 1px solid;
+    color: black;
+}
+
+#contact button:hover{
+    background-color: #f47425;
+    border: #f47425 1px solid;
+    color: rgb(87, 83, 83);
+}
+
+#contact .map{
+    padding-left: 5%;
+    display: flex;
+}
+
+#contact i{
+    font-size: 3rem;
+}
+
+#contact ul p,.mail{
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#contact ul .mail:hover{
+    color: rgb(87, 83, 83);
+}
+
+#contact iframe{
+    box-shadow: 5px 5px 5px rgba(87, 83, 83, .4);
+}
+    
+

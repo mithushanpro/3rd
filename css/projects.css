@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ///////////////////////////////////nav bar//////////////////////////// */
+nav{
+    width: 100%;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 5px 8px rgba(255, 254, 254, 0.5);
+    z-index: 10;
+}
+i{
+    color: #f47425;
+}
+.nav-link{
+    /* color: rgb(255, 245, 245) !important; */
+    color: whitesmoke!important;  
+}
+
+.nav-link:hover{
+    color: #f47425 !important;
+}
+/* ################################# PROJECT ############################# */
+#projects{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    position:absolute;
+}
+
+#projects .row{
+    margin-top: 7%;
+}
+
+#projects h3{
+    color: #f47425;
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+#projects .more{
+    margin-top: 2%;
+    font-size: 1.3rem;
+    border-radius: 0;
+    border: #f47425 1px solid;
+    color: rgb(87, 83, 83);
+    text-align: lest;
+}
+
+#projects .more:hover{
+    background-color: #f47425;
+    border: #f47425 1px solid;
+    color: black;
+}
+
+#projects .Client{
+    margin-top: -5%;
+}
+
+@media (max-width:800px) {
+    #projects .row{
+        margin-top: 10%;
+    }
+}
+@media (max-width:600px) {
+    #projects .row{
+        margin-top: 15%;
+    }
+}
+
+@media (max-width:320px) {
+    #projects .row{
+        margin-top: 25%;
+    }
+}
+
+
+
